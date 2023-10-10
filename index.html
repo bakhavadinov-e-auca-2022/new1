@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      
+       /* Set the background image for the whole website */
+        body {
+            background-image: url('https://wallpaperaccess.com/full/295657.jpg'); /* Replace 'background.jpg' with the path to your image */
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            background-attachment: fixed; /* Fixed background */
+        }
+
+        /* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+          <a href="hhttps://www.apple.com/iphone/">Visit Google</a>
+        /* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Create a container for the Hero section */
+        .hero-container {
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            flex-direction: column; /* Vertical column layout */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            text-align: center;
+        }
+
+        /* Style for the header and subheader */
+        .hero-header {
+            font-size: 70px;
+            margin-bottom: 10px;
+          color: #C0C0C0;
+            background-color: #402f7d;
+          
+
+        }
+      
+        .hero-subheader {
+            font-size: 25px; /* Increase font size */
+            color: #FAD6A5; /* Change text color */
+            font-weight: bold;
+          background-color: #402f7d ;
+        }
+
+        /* Style for the button */
+        .hero-button {
+            padding: 50px 20px;
+            background-color: #71706e;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Create a menu line at the top */
+        .menu {
+            display: flex;
+            justify-content: space-between; /* Space between logo and menu items */
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            background-color: #ffff;
+            color: #fff;
+        }
+
+        /* Style for the logo */
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Style for the menu items */
+        .menu-items {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Style for individual menu items */
+        .menu-item {
+            margin-left: 20px;
+          
+        }
+
+        /* Style for the hidden content */
+        .hidden-content {
+            display: none;
+            margin-top: 20px;
+          color: #C0C0C0;
+          background-color: #402f7d ;
+        }
+    </style>
+</head>
+<body>
+     <!-- Menu line at the top -->
+<div class="menu">
+    <a href="#" class="logo">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-melted-select-2021?wid=3250&hei=4000&fmt=jpeg&qlt=90&.v=1653339345102" alt="Your Logo" style="width: 150px; height: 180px;">
+    </a>
+    <ul class="menu-items">
+        <li class="menu-item"><a href="#">About</a></li>
+        <li class="menu-item"><a href="#">Products</a></li>
+        <li class="menu-item"><a href="#">City Tour at Apple </a></li>
+        <li class="menu-item"><a href="#">Service </a></li>
+        <li class="menu-item"><a href="#">Contacts </a></li>
+        text-align: center;
+    </ul>
+</div>
+  
+
+
+
+    <!-- Hero section -->
+    <div class="hero-container">
+        <h1 class="hero-header">New York  </h1>
+        <p class="hero-subheader">City of Dreams </p>
+        <a href="#" class="hero-button" id="toggle-button">Learn More</a>
+        <div class="hidden-content" id="hidden-content">
+            <!-- Add your hidden content here -->
+            <p>Discover the enchanting fusion of technology and the vibrant spirit of New York City at Apple's iconic locations. Begin your journey at the dazzling Fifth Avenue store, explore the latest Apple innovations, and join a photography workshop to capture the city's essence. Immerse yourself in a live music experience at Apple Park and embrace the serenity of Apple Central Park. With each stop, you'll uncover the magic that Apple weaves into the fabric of the Big Apple, leaving you with unforgettable memories of technology and culture intertwining in the heart of the city that never sleeps."</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to toggle the hidden content
+        document.getElementById('toggle-button').addEventListener('click', function () {
+            var hiddenContent = document.getElementById('hidden-content');
+            if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+                hiddenContent.style.display = 'block';
+            } else {
+                hiddenContent.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
